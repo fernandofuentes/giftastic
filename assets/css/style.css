@@ -1,0 +1,8 @@
+
+.container-fluid {
+  background-image: url(assets/images/mario-bkg.jpg);
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
