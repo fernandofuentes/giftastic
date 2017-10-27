@@ -1,8 +1,33 @@
 
-.container-fluid {
-  background-image: url(assets/images/mario-bkg.jpg);
+body {
+  background-image: url("../images/mario-bkg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+
 }
 .container {
   text-align: center;
   margin: 0 auto;
+  background-color: none;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #ffffff;
+}
+
+button.game {
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: red;
+    color: #ffffff;
+    padding: 6px;
+}
+
+form#giphy-form {
+    margin-top: 17px;
 }
